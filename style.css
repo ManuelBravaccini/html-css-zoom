@@ -44,7 +44,7 @@ div>p{
     padding: 0.5rem;    
 }
 
-footer{
+footer{ /*Footer*/
     width: 100vw;
     height: 10vh;
     background-color: #222222;
@@ -54,16 +54,38 @@ footer{
     align-items: center;
 }
 
-#audio-video{
+footer button, footer>div{
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0px;
+    padding: 1rem;
+    color: white;
+}
 
+#misc>button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer button>i{
+    font-size: 1.5rem;
+    padding-bottom: 0.5rem;
 }
 
 #misc{
     display: flex;
     justify-content: center;
-    align-items: center;
+}
+
+.fa-share-from-square{
+    color: green;
 }
 
 #end-call{
-
+    background-color: #4a4a4a;
+    color: red;
+    padding: 0rem 1rem;
+    border: 0px;
+    line-height: 7;
 }
