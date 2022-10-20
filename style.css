@@ -8,20 +8,58 @@ main{
     background-color: black;
     width: 100vw;
     height: 90vh;
-    padding: 2rem;
 }
 
 header.commands{
     display: flex;
-    
+    justify-content: flex-end;
+}
+
+header.commands button{
+    background-color: grey;
+    color: white;
+    padding: 1rem;
 }
 
 section.webcams{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    padding: 2rem;
 }
 
-section.webcams img{
-    padding: 0.25rem;
+section.webcams div.cam{
+    background-image: url(https://picsum.photos/300/200);
+    width: 300px;
+    height: 200px;
+    margin: 0.25rem;
+}
+
+div>p{
+    background-color: rgba(rgba(0, 0, 0, 0.5), green, blue, alpha);
+    color: white;
+}
+
+footer{
+    width: 100vw;
+    height: 10vh;
+    background-color: #222222;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+#audio-vdieo{
+
+}
+
+#misc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#end-call{
+
 }
