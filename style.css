@@ -3,3 +3,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+main{
+    background-color: black;
+    width: 100vw;
+    height: 90vh;
+    padding: 2rem;
+}
+
+header.commands{
+    display: flex;
+    
+}
+
+section.webcams{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+section.webcams img{
+    padding: 0.25rem;
+}
