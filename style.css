@@ -16,9 +16,10 @@ header.commands{
 }
 
 header.commands button{
-    background-color: grey;
+    background-color: rgba(126, 126, 126, 0.5);
     color: white;
-    padding: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
 }
 
 section.webcams{
@@ -33,11 +34,14 @@ section.webcams div.cam{
     width: 300px;
     height: 200px;
     margin: 0.25rem;
+    display: flex;
+    align-items: flex-end;
 }
 
 div>p{
-    background-color: rgba(rgba(0, 0, 0, 0.5), green, blue, alpha);
+    background-color: rgba(0, 0, 0, 0.5);
     color: white;
+    padding: 0.5rem;    
 }
 
 footer{
@@ -47,10 +51,10 @@ footer{
     position: fixed;
     display: flex;
     justify-content: space-between;
-    align-items: center;    
+    align-items: center;
 }
 
-#audio-vdieo{
+#audio-video{
 
 }
 
