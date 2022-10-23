@@ -55,6 +55,10 @@ footer{ /*Footer*/
     align-items: center;
 }
 
+button>span{
+    display: block;
+}
+
 footer button, footer>div{
     height: 100%;
     background-color: rgba(0, 0, 0, 0);
